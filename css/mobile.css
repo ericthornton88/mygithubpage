@@ -1,0 +1,126 @@
+/****************************************
+  Large Mobile
+*****************************************/
+
+@media (min-width: 550px) and (max-width: 650px) {
+  	nav {
+		font-size: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  	.main-square{
+  		height: 250px;
+  		width: 250px;
+  	}
+  	body > div {
+		width: 504px;
+		margin-left: -252px;
+		margin-top: -252px;
+	}
+  	.fa {
+  		font-size: 40px;
+  	}
+}
+
+/****************************************
+  Normal Mobile
+*****************************************/
+
+@media (min-width: 350px) and (max-width: 550px) {
+  	nav {
+		position: static;
+		text-align: center;
+		width: 100%;
+		font-size: 30px;
+		padding-bottom: 20px;
+	}
+  	.main-square{
+  		height: 350px;
+  		width: 350px;
+  	}
+  	body > div {
+  		position: static;
+		width: 350px;
+		margin: 0 auto;
+	}
+	.css-project {
+		border-bottom: 4px solid white;
+		border-left: 0px;
+	}
+
+	.twitter-project {
+		border-bottom: 4px solid white;
+		border-right: 0px;
+		border-top: 0px;
+	}
+
+	.about-me {
+		border-top: 0px;
+		border-left: 0px;
+	}
+
+	.social-container {
+		border-right: 0px;
+		border-bottom: 4px solid white;
+	}
+}
+
+/****************************************
+  Small Mobile
+*****************************************/
+@media (min-width: 10px) and (max-width: 350px) {
+  	nav {
+		position: static;
+		text-align: center;
+		width: 100%;
+		font-size: 30px;
+		padding-bottom: 20px;
+	}
+  	.main-square{
+  		height: 200px;
+  		width: 200px;
+  	}
+  	body > div {
+  		position: static;
+		width: 200px;
+		margin: 0 auto;
+	}
+	.css-project {
+		border-bottom: 4px solid white;
+		border-left: 0px;
+	}
+
+	.twitter-project {
+		border-bottom: 4px solid white;
+		border-right: 0px;
+		border-top: 0px;
+	}
+
+	.about-me {
+		border-top: 0px;
+		border-left: 0px;
+	}
+
+	.social-container {
+		border-right: 0px;
+		border-bottom: 4px solid white;
+	}
+}
+
+/****************************************
+  Large Desktop
+*****************************************/
+@media (min-height: 900px) {
+  	.main-square{
+  		height: 350px;
+  		width: 350px;
+  	}
+  	body > div {
+		width: 704px;
+		margin-left: -352px;
+		margin-top: -352px;
+	}
+  	.fa {
+  		font-size: 100px;
+  	}
+}
