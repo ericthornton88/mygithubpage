@@ -2,13 +2,13 @@
   Large Mobile
 *****************************************/
 
-@media (min-width: 550px) and (max-width: 650px) {
-  	nav {
+@media (min-width: 640px) and (max-width: 1100px) {
+  	/*nav {
 		font-size: 40px;
 		text-align: center;
 		width: 100%;
-	}
-  	.main-square{
+	}*/
+  	/*.main-square{
   		height: 250px;
   		width: 250px;
   	}
@@ -16,17 +16,17 @@
 		width: 504px;
 		margin-left: -252px;
 		margin-top: -252px;
-	}
-  	.fa {
+	}*/
+  	/*.fa {
   		font-size: 40px;
-  	}
+  	}*/
 }
 
 /****************************************
   Normal Mobile
 *****************************************/
 
-@media (min-width: 350px) and (max-width: 550px) {
+@media (min-width: 350px) and (max-width: 640px) {
   	nav {
 		position: static;
 		text-align: center;
@@ -35,12 +35,12 @@
 		padding-bottom: 20px;
 	}
   	.main-square{
-  		height: 350px;
-  		width: 350px;
+  		height: 31em;
+  		width: 100%;
   	}
   	body > div {
   		position: static;
-		width: 350px;
+		width: 100%;
 		margin: 0 auto;
 	}
 	.css-project {
@@ -62,6 +62,10 @@
 	.social-container {
 		border-right: 0px;
 		border-bottom: 4px solid white;
+	}
+	.fa {
+		top: 40px;
+		font-size: 170px;
 	}
 }
 
@@ -107,20 +111,3 @@
 	}
 }
 
-/****************************************
-  Large Desktop
-*****************************************/
-@media (min-height: 900px) {
-  	.main-square{
-  		height: 350px;
-  		width: 350px;
-  	}
-  	body > div {
-		width: 704px;
-		margin-left: -352px;
-		margin-top: -352px;
-	}
-  	.fa {
-  		font-size: 100px;
-  	}
-}
