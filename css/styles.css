@@ -13,13 +13,6 @@ body > div {
 	margin-top: -302px;
 }
 
-nav {
-	position: absolute;
-	font-family: PT Sans;
-	font-weight: bold;
-	font-size: 20px;
-}
-
 .main-square > a {
 	color: transparent;
 }
