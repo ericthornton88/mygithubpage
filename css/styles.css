@@ -144,3 +144,11 @@ li {
 li span {
 	font-weight: bold;
 }
+
+.fa-home {
+	color: black;
+	font-size: 50px;
+	position: absolute;
+	top: 0;
+	right: 20px;
+}
