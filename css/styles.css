@@ -101,3 +101,46 @@ img.color {
 	font-size: 100px;
 }
 
+/****************************************
+  About Me Page
+*****************************************/
+
+main {
+	width: 960px;
+	margin: 0 auto 50px auto;
+	font-family: Lato;
+}
+
+main h1 {
+	font-family: Lato;
+	margin-bottom: 10px;
+}
+
+main p {
+	font-weight: 300;
+	font-family: Lato;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+ul {
+	list-style-type: circle;
+}
+
+
+.preLi {
+	margin-bottom: 0;
+	font-weight: 400;
+}
+
+ul {
+	margin-top: 7px;
+}
+
+li {
+	font-weight: 300;
+}
+
+li span {
+	font-weight: bold;
+}
