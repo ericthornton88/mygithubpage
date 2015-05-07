@@ -34,6 +34,10 @@ img.color {
 	background-color: black;
 }
 
+img:hover {
+	opacity: 1;
+}
+
 .css-project {
 	float: left;
 	border-bottom: 2px solid white;
