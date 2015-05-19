@@ -15,7 +15,7 @@
   Normal Mobile
 *****************************************/
 
-@media (min-width: 350px) and (max-width: 640px) {
+@media (min-width: 0px) and (max-width: 640px) {
   	nav {
 		position: static;
 		text-align: center;
@@ -67,7 +67,7 @@
 /****************************************
   Small Mobile
 *****************************************/
-@media (min-width: 0px) and (max-width: 350px) {
+/*@media (min-width: 0px) and (max-width: 350px) {
   	nav {
 		position: static;
 		text-align: center;
@@ -103,12 +103,12 @@
 	.social-container {
 		border-right: 0px;
 		border-bottom: 4px solid white;
-	}
+	}*/
 	/****************************************
 	  About Me Page
 	*****************************************/
-	main {
+	/*main {
 		width: 95%
 	}
-}
+}*/
 
