@@ -5,7 +5,6 @@ body {
 body > div {
 	width: 604px;
 	position: absolute;
-	background-color: yellow;
 	overflow: hidden;
 	left: 50%;
 	margin-left: -302px;
