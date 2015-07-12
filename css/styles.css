@@ -1,157 +1,98 @@
 body {
-	background-color: #d7dadb;
+
 }
 
-body > div {
-	width: 604px;
+#home {
+	font-size: initial;
+	margin-top: 0;
+	margin-left: initial;
 	position: absolute;
-	overflow: hidden;
-	left: 50%;
-	margin-left: -302px;
-	top: 50%;
-	margin-top: -302px;
-}
-
-.main-square > a {
-	color: transparent;
-}
-
-img {
-	height: 100%;
-	width: 100%;
-}
-
-img.color {
-	opacity: 0.6;
-}
-
-.main-square {
-	text-align: center;
-	position: relative;
-	height: 300px;
-	width: 300px;
-	background-color: black;
-}
-
-img:hover {
-	opacity: 1;
-}
-
-.css-project {
-	float: left;
-	border-bottom: 2px solid white;
-	border-left: 2px solid white;
-}
-
-.twitter-project {
-	float: left;
-	border-top: 2px solid white;
-	border-right: 2px solid white;
-
-}
-
-.about-me {
-	float: left;
-	border-top: 2px solid white;
-	border-left: 2px solid white;
-}
-
-.social-container {
-	float: left;
-	border-right: 2px solid white;
-	border-bottom: 2px solid white;
-}
-
-.social-container > div {
-	position: absolute;
-	height: 50%;
-	width: 50%;
-}
-
-.social-container > :nth-child(1) {
-	bottom: 50%;
-	right: 50%;
-	border-right: 2px solid white;
-	border-bottom: 2px solid white;
-}
-
-.social-container > :nth-child(2) {
-	top: 50%;
-	right: 50%;
-	border-top: 2px solid white;
-	border-right: 2px solid white;
-
-}
-
-.social-container > :nth-child(3) {
-	bottom: 50%;
-	left: 50%;
-	border-bottom: 2px solid white;
-	border-left: 2px solid white;
-}
-
-.social-container > :nth-child(4) {
-	top: 50%;
-	left: 50%;
-	border-top: 2px solid white;
-	border-left: 2px solid white;
-}
-
-.fa {
-	position: relative;
-	top: 30px;
-	color: #d7dadb;
-	font-size: 100px;
-}
-
-/****************************************
-  About Me Page
-*****************************************/
-
-main {
-	width: 960px;
-	margin: 0 auto 50px auto;
-	font-family: Lato;
-}
-
-main h1 {
-	font-family: Lato;
-	margin-bottom: 10px;
-}
-
-main p {
-	font-weight: 300;
-	font-family: Lato;
-	font-size: 20px;
-	margin-top: 10px;
-}
-
-ul {
-	list-style-type: circle;
-}
-
-
-.preLi {
-	margin-bottom: 0;
-	font-weight: 400;
-}
-
-ul {
-	margin-top: 7px;
-}
-
-li {
-	font-weight: 300;
-}
-
-li span {
-	font-weight: bold;
+	right: 10px;
 }
 
 .fa-home {
+	font-size: 40px;
 	color: black;
-	font-size: 50px;
+}
+
+/****************************************
+  Home Page
+*****************************************/
+.home-content {
+	margin-left: 100px;
 	position: absolute;
-	top: 0;
-	right: 20px;
+	top: 30%;
+}
+
+.home-content h1 {
+	font-size: 50px;
+}
+
+.home-content div {
+	width: 200px;
+}
+
+.home-content a {
+	display: inline-block;
+	font-size: 30px;
+	color: black;
+}
+
+.home-content div > * + * {
+	margin-top: 15px;
+}
+
+.home-content a:hover {
+	font-weight: bold;
+}
+
+/****************************************
+  About Page
+*****************************************/
+
+main {
+	margin-bottom: 40px;
+	margin-left: 30px;
+	width: 900px;
+}
+
+main p {
+	line-height: 20px;
+}
+
+main ol {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+main a {
+	color: black;
+}
+
+main a:hover {
+	font-weight: bold;
+}
+
+/****************************************
+  Projects
+*****************************************/
+
+.projects h1 {
+	margin-bottom: 5px;
+}
+
+.projects p {
+	font-size: 12px;
+}
+
+/****************************************
+  Media Query
+*****************************************/
+
+@media (min-width: 0px) and (max-width: 940px) {
+
+	main {
+		width: 90%;
+	}
+	
 }
