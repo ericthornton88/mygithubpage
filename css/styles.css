@@ -4,7 +4,7 @@ body {
 
 #home {
 	font-size: initial;
-	margin-top: 0;
+	margin-top: -10px;
 	margin-left: initial;
 	position: absolute;
 	right: 10px;
@@ -65,7 +65,7 @@ main ol {
 	margin-bottom: 20px;
 }
 
-main a {
+main > a {
 	color: black;
 }
 
