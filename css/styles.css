@@ -1,5 +1,7 @@
 body {
-
+	font-family: Lato;
+	background-image: url(../images/paper.jpg);
+	background-size: cover;
 }
 
 #home {
@@ -12,6 +14,18 @@ body {
 
 .fa-home {
 	font-size: 40px;
+	color: black;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+a:visited {
 	color: black;
 }
 
@@ -35,16 +49,13 @@ body {
 .home-content a {
 	display: inline-block;
 	font-size: 30px;
-	color: black;
 }
 
 .home-content div > * + * {
 	margin-top: 15px;
 }
 
-.home-content a:hover {
-	font-weight: bold;
-}
+
 
 /****************************************
   About Page
@@ -52,25 +63,14 @@ body {
 
 main {
 	margin-bottom: 40px;
-	margin-left: 30px;
+	margin-left: 130px;
 	width: 900px;
-}
-
-main p {
-	line-height: 20px;
+	line-height: 23px;
 }
 
 main ol {
 	margin-top: 20px;
 	margin-bottom: 20px;
-}
-
-main > a {
-	color: black;
-}
-
-main a:hover {
-	font-weight: bold;
 }
 
 /****************************************
